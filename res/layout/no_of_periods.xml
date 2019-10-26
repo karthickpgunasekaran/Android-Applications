@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent" >
+ <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="410dp"
+            android:orientation="vertical" 
+            >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/booksnew" 
+        />
+
+    <EditText
+        android:id="@+id/getNoOfPeriods"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/noOfPeriods"
+        android:layout_below="@+id/noOfPeriods"
+        android:ems="10"
+        android:inputType="numberSigned" />
+
+    <TextView
+        android:id="@+id/noOfPeriods"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:text="@string/enter_classes"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/satCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/getNoOfPeriods"
+        android:layout_below="@+id/getNoOfPeriods"
+        android:layout_marginTop="20dp"
+        android:text="@string/sat" />
+   
+        </RelativeLayout>
+    </ScrollView>
+
+ <Button
+     android:id="@+id/nextNoOfPeriodsButton"
+     android:layout_width="70dp"
+     android:layout_height="50dp"
+     android:layout_alignParentBottom="true"
+     android:layout_alignParentRight="true"
+     android:background="#F3F7F0"
+     android:text="@string/next" />
+
+</RelativeLayout>

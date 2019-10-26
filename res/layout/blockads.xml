@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+        android:background="@drawable/tile4markbunk">
+            <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/howtouse"
+        android:layout_marginBottom="10dp" />
+           <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <Button
+        android:id="@+id/button41"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        
+        android:layout_height="wrap_content"
+        android:text="Weekday" />
+    
+        <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/changeE" />
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="5dp" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:background="@drawable/greenback"
+        android:text="Lecture" />
+  
+    <TextView
+        android:id="@+id/textView254"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/greenBu" />
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+     android:layout_marginBottom="5dp">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:background="@drawable/redback"
+        android:text="Lecture" />
+  
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/redBu" />
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+     android:layout_marginBottom="10dp">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:background="@drawable/whiteback2"
+        android:text="Lecture" />
+  
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_marginLeft="8dp"
+        android:text="@string/defaultBu" />
+</LinearLayout>
+
+<TextView
+    android:id="@+id/textView5"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Predict week:"
+    android:textSize="20dp" />
+
+
+<TextView
+    android:id="@+id/textView6"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:text="@string/predictEx"
+    android:layout_marginBottom="10dp" />
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="10dp" 
+    >
+       <ImageButton
+                    android:id="@+id/kk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/tick1" />
+
+       <TextView
+           android:id="@+id/textView7"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center"
+           android:text="@string/precalEx" />
+       
+</LinearLayout>
+  <TextView
+      android:id="@+id/textView8"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textSize="20dp"
+      android:text="@string/disads" />
+  <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        ads:adSize="BANNER"
+         ads:adUnitId="ca-app-pub-5293147320473871/2063964149"
+     >
+    </com.google.android.gms.ads.AdView>
+
+
+  </LinearLayout>
+  </ScrollView>
+</LinearLayout>

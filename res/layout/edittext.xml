@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <AutoCompleteTextView
+        android:id="@+id/autoEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="@string/enterClass" />
+
+    <Button
+        android:id="@+id/okay"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/checkHol"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="27dp"
+        android:layout_marginLeft="49dp"
+        android:text="@string/next" />
+
+    <CheckBox
+        android:id="@+id/checkHol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/next"
+        android:layout_alignLeft="@+id/autoEdit"
+        android:layout_marginBottom="18dp"
+        android:text="@string/checkHol" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/checkHol"
+        android:layout_alignLeft="@+id/next"
+        android:text="OR"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

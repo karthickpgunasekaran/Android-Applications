@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        ads:adSize="BANNER"
+         android:background="@drawable/tile4markbunk"
+        ads:adUnitId="ca-app-pub-5293147320473871/2842693345" >
+    </com.google.android.gms.ads.AdView>
+    <RelativeLayout
+        android:id="@+id/fire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tile4backper" 
+      >
+
+        <TextView
+            android:id="@+id/fire20"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="000.0%"
+            android:textSize="28dp" />
+
+        <LinearLayout
+            android:id="@+id/li1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+          >
+
+            <TextView
+                android:id="@+id/fire10"
+                android:layout_width="240dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/fire20"
+                android:gravity="top|left"
+                android:paddingLeft="5dp"
+                android:text="@string/overall"
+                android:textSize="40dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/li1"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textstyle1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/total" />
+
+            <TextView
+                android:id="@+id/fire40"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_alignBottom="@+id/fire20"
+                android:layout_alignRight="@+id/fire10"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/textstyle2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="@string/pre" />
+
+            <TextView
+                android:id="@+id/fire30"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_alignTop="@+id/fire40"
+                android:layout_toRightOf="@+id/textstyle1"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="25dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tile4markbunk"
+        android:divider="#C0C0C0"
+        android:dividerHeight="6.0sp" >
+    </ListView>
+    
+</LinearLayout>

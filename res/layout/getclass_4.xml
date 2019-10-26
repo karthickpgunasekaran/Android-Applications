@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tile4markbunk"
+    android:orientation="horizontal" >
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/linearLayout1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:paddingTop="5dp" >
+
+                    <Button
+                        android:id="@+id/mon"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="8dp"
+                        android:text="@string/mon" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/mon1"
+                             android:layout_width="@dimen/size4len"
+                        android:layout_height="@dimen/size4hei"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:imeOptions="actionDone"
+                        android:maxLength="7"
+                        android:textSize="13sp"
+                         android:hint="@string/class1" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/mon2"
+                          android:layout_width="@dimen/size4len"
+                        android:layout_height="@dimen/size4hei"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                          android:imeOptions="actionDone"
+                        android:maxLength="@string/seven"
+                        android:textSize="13sp"
+                         android:hint="@string/class2" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/mon3"
+                              android:layout_width="@dimen/size4len"
+                        android:layout_height="@dimen/size4hei"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                          android:imeOptions="actionDone"
+                        android:maxLength="@string/seven"
+                        android:textSize="13sp"
+                         android:hint="@string/class3" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/mon4"
+                              android:layout_width="@dimen/size4len"
+                        android:layout_height="@dimen/size4hei"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                          android:imeOptions="actionDone"
+                        android:maxLength="@string/seven"
+                        android:textSize="13sp"
+                         android:hint="@string/class4" />
+
+      
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/linearLayout1"
+                    android:paddingTop="5dp" >
+
+                    <Button
+                        android:id="@+id/tue"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="8dp"
+                        android:text="@string/tue" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/tue1"
+                   android:layout_width="@dimen/size4len"
+                        android:layout_height="@dimen/size4hei"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                          android:imeOptions="actionDone"
+                        android:maxLength="@string/seven"
+                        android:textSize="13sp"
+                         android:hint="@string/class1" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/tue2"
+                            android:layout_width="@dimen/size4len"
+                        android:layout_height="@dimen/size4hei"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                          android:imeOptions="actionDone"
+                        android:maxLength="@string/seven"
+                        android:textSize="13sp"
+                         android:hint="@string/class2" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/tue3"
+                             android:layout_width="@dimen/size4len"
+                        android:layout_height="@dimen/size4hei"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                          android:imeOptions="actionDone"
+                        android:maxLength="@string/seven"
+                        android:textSize="13sp"
+                         android:hint="@string/class3" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/tue4"
+                              android:layout_width="@dimen/size4len"
+                        android:layout_height="@dimen/size4hei"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp" 
+                          android:imeOptions="actionDone"
+                        android:maxLength="@string/seven"
+                        android:textSize="13sp"
+                         android:hint="@string/class4"/>
+
+           
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/linearLayout2"
+                    android:paddingTop="5dp" >
+
+                    <Button
+                        android:id="@+id/wed"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="8dp"
+                        android:text="@string/wed" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/wed1"
+                           android:layout_width="@dimen/size4len"
+                        android:layout_height="@dimen/size4hei"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                          android:imeOptions="actionDone"
+                        android:maxLength="@string/seven"
+                        android:textSize="13sp"
+                         android:hint="@string/class1" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/wed2"
+                          android:layout_width="@dimen/size4len"
+                        android:layout_height="@dimen/size4hei"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp" 
+                          android:imeOptions="actionDone"
+                        android:maxLength="@string/seven"
+                        android:textSize="13sp"
+                         android:hint="@string/class2"/>
+
+                    <AutoCompleteTextView
+                        android:id="@+id/wed3"
+                            android:layout_width="@dimen/size4len"
+                        android:layout_height="@dimen/size4hei"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp" 
+                          android:imeOptions="actionDone"
+                        android:maxLength="@string/seven"
+                        android:textSize="13sp"
+                         android:hint="@string/class3"/>
+
+                    <AutoCompleteTextView
+                        android:id="@+id/wed4"
+                          android:layout_width="@dimen/size4len"
+                        android:layout_height="@dimen/size4hei"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                          android:imeOptions="actionDone"
+                        android:maxLength="@string/seven"
+                        android:textSize="13sp"
+                         android:hint="@string/class4" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/linearLayout3"
+                    android:paddingTop="5dp" >
+
+                    <Button
+                        android:id="@+id/thu"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="8dp"
+                        android:text="@string/thu" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/thu1"
+                            android:layout_width="@dimen/size4len"
+                        android:layout_height="@dimen/size4hei"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp" 
+                          android:imeOptions="actionDone"
+                        android:maxLength="@string/seven"
+                        android:textSize="13sp"
+                         android:hint="@string/class1"/>
+
+                    <AutoCompleteTextView
+                        android:id="@+id/thu2"
+                           android:layout_width="@dimen/size4len"
+                        android:layout_height="@dimen/size4hei"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                          android:imeOptions="actionDone"
+                        android:maxLength="@string/seven"
+                        android:textSize="13sp"
+                         android:hint="@string/class2" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/thu3"
+                            android:layout_width="@dimen/size4len"
+                        android:layout_height="@dimen/size4hei"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                          android:imeOptions="actionDone"
+                        android:maxLength="@string/seven"
+                        android:textSize="13sp"
+                         android:hint="@string/class3" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/thu4"
+                              android:layout_width="@dimen/size4len"
+                        android:layout_height="@dimen/size4hei"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                          android:imeOptions="actionDone"
+                        android:maxLength="@string/seven"
+                        android:textSize="13sp"
+                         android:hint="@string/class4" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/linearLayout4"
+                    android:layout_marginRight="8dp"
+                    android:paddingTop="5dp" >
+
+                    <Button
+                        android:id="@+id/fri"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="8dp"
+                        android:text="@string/fri" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/fri1"
+                           android:layout_width="@dimen/size4len"
+                        android:layout_height="@dimen/size4hei"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                          android:imeOptions="actionDone"
+                        android:maxLength="@string/seven"
+                        android:textSize="13sp"
+                         android:hint="@string/class1" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/fri2"
+                             android:layout_width="@dimen/size4len"
+                        android:layout_height="@dimen/size4hei"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp" 
+                          android:imeOptions="actionDone"
+                        android:maxLength="@string/seven"
+                        android:textSize="13sp"
+                         android:hint="@string/class2"/>
+
+                    <AutoCompleteTextView
+                        android:id="@+id/fri3"
+                             android:layout_width="@dimen/size4len"
+                        android:layout_height="@dimen/size4hei"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                          android:imeOptions="actionDone"
+                        android:maxLength="@string/seven"
+                        android:textSize="13sp"
+                         android:hint="@string/class3" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/fri4"
+                             android:layout_width="@dimen/size4len"
+                        android:layout_height="@dimen/size4hei"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp" 
+                          android:imeOptions="actionDone"
+                        android:maxLength="@string/seven"
+                        android:textSize="13sp"
+                         android:hint="@string/class4"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/linearLayout5"
+                    android:layout_marginRight="8dp"
+                    android:paddingTop="5dp" >
+
+                    <Button
+                        android:id="@+id/satt"
+                        style="?android:attr/buttonStyleSmall"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="8dp"
+                        android:text="@string/satt" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/sat1"
+                             android:layout_width="@dimen/size4len"
+                        android:layout_height="@dimen/size4hei"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp" 
+                          android:imeOptions="actionDone"
+                        android:maxLength="@string/seven"
+                        android:textSize="13sp"
+                         android:hint="@string/class1"/>
+
+                    <AutoCompleteTextView
+                        android:id="@+id/sat2"
+                             android:layout_width="@dimen/size4len"
+                        android:layout_height="@dimen/size4hei"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                          android:imeOptions="actionDone"
+                        android:maxLength="@string/seven"
+                        android:textSize="13sp"
+                         android:hint="@string/class2" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/sat3"
+                              android:layout_width="@dimen/size4len"
+                        android:layout_height="@dimen/size4hei"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                          android:imeOptions="actionDone"
+                        android:maxLength="@string/seven"
+                        android:textSize="13sp"
+                         android:hint="@string/class3" />
+
+                    <AutoCompleteTextView
+                        android:id="@+id/sat4"
+                              android:layout_width="@dimen/size4len"
+                        android:layout_height="@dimen/size4hei"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                          android:imeOptions="actionDone"
+                        android:maxLength="@string/seven"
+                        android:textSize="13sp"
+                         android:hint="@string/class4" />
+
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" >
+
+        <Button
+            android:id="@+id/check"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/horizontalScrollView1"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:text="@string/next" />
+    </LinearLayout>
+
+</RelativeLayout>
