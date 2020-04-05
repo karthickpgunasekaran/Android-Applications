@@ -2,19 +2,18 @@
 
 Attendance Care is an android application which helps to maintain and track class attendance for students. Application has User-friendly interface to keep track your attendance.Students can enter timetable and record attendance on daily or weekly basis, also it has the functionality to automatic login based on the GPS location services. The app tracks your overall attendance as well as attendance for individual classes for that semester.Application also has a key feature of going back and changing logs which most of all other app's lack on and also share your attendance report with friends online. Attendance Care also has notification to mark attendance on weekly basis.
 
-## PRO's:
-'''
-*User-friendly
-*One touch marking bunk's
-*Easy to attend bunk's
-*Cool user-interface
-*Calendar enabled
-*One-touch attendance calculation
-*One time setup
-*Notification with preferences
-*Customized Predicting attendance
-*Share your attendance online
-'''
+## Advantage over other apps:
+
+- User-friendly
+- One touch marking bunk's
+- Easy to attend bunk's
+- Cool user-interface
+- Calendar enabled
+- One-touch attendance calculation
+- One time setup
+- Notification with preferences
+- Customized Predicting attendance
+- Share your attendance online
 
 
 ## Installation
